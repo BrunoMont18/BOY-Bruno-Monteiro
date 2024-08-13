@@ -1,14 +1,39 @@
+*{
+    margin: 0px;
+}
+
+body {
+
+}
+
+input {
+    display: block;
+}
+
 #titulo {
     text-align: center;
     color: aqua;
+    
+    
 }
 
 .rodape {
-    color: blue;
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     text-align: center;
-    border: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .entradas-usuario {
     border: 1px solid;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
 }
